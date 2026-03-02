@@ -16,7 +16,7 @@ Filament plugin for **Fathom Analytics** metrics. Provides a settings page and d
 
 | Plugin | Filament | Laravel | PHP |
 |--------|----------|---------|-----|
-| 1.x | 3.x | 10.x / 11.x | 8.1+ |
+| 1.x | 3.x | 10.x / 11.x | 8.2+ |
 | 2.x (soon) | 4.x | 11.x+ | 8.2+ |
 | 3.x (soon) | 5.x | 11.x+ | 8.2+ |
 
