@@ -2,20 +2,20 @@
 
 namespace JeffersonGoncalves\Filament\MetricsFathom\Pages;
 
-use Filament\Forms\Components\Section;
 use Filament\Forms\Components\Select;
 use Filament\Forms\Components\TextInput;
-use Filament\Forms\Form;
 use Filament\Pages\SettingsPage;
+use Filament\Schemas\Components\Section;
+use Filament\Schemas\Schema;
 use JeffersonGoncalves\MetricsFathom\Settings\FathomSettings;
 
 class FathomMetricsSettingsPage extends SettingsPage
 {
     protected static string $settings = FathomSettings::class;
 
-    protected static ?string $navigationIcon = 'heroicon-o-chart-bar-square';
+    protected static string|\BackedEnum|null $navigationIcon = 'heroicon-o-chart-bar-square';
 
-    public static function getNavigationGroup(): ?string
+    public static function getNavigationGroup(): string|\UnitEnum|null
     {
         return __('filament-metrics-fathom::metrics-fathom.navigation_group');
     }
@@ -30,9 +30,9 @@ class FathomMetricsSettingsPage extends SettingsPage
         return __('filament-metrics-fathom::metrics-fathom.title');
     }
 
-    public function form(Form $form): Form
+    public function form(Schema $schema): Schema
     {
-        return $form
+        return $schema
             ->schema([
                 Section::make(__('filament-metrics-fathom::metrics-fathom.sections.api_configuration'))
                     ->schema([

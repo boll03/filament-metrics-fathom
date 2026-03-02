@@ -11,7 +11,7 @@ class TopPagesWidget extends Widget
 {
     use InteractsWithFathom;
 
-    protected static string $view = 'filament-metrics-fathom::widgets.top-pages';
+    protected string $view = 'filament-metrics-fathom::widgets.top-pages';
 
     protected int|string|array $columnSpan = 1;
 

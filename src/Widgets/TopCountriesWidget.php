@@ -11,7 +11,7 @@ class TopCountriesWidget extends Widget
 {
     use InteractsWithFathom;
 
-    protected static string $view = 'filament-metrics-fathom::widgets.top-countries';
+    protected string $view = 'filament-metrics-fathom::widgets.top-countries';
 
     protected int|string|array $columnSpan = 1;
 

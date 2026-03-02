@@ -11,7 +11,7 @@ class TopReferrersWidget extends Widget
 {
     use InteractsWithFathom;
 
-    protected static string $view = 'filament-metrics-fathom::widgets.top-referrers';
+    protected string $view = 'filament-metrics-fathom::widgets.top-referrers';
 
     protected int|string|array $columnSpan = 1;
 

@@ -1,13 +1,13 @@
 <div class="filament-hidden">
 
-![Filament Metrics Fathom](https://raw.githubusercontent.com/jeffersongoncalves/filament-metrics-fathom/1.x/art/jeffersongoncalves-filament-metrics-fathom.png)
+![Filament Metrics Fathom](https://raw.githubusercontent.com/jeffersongoncalves/filament-metrics-fathom/2.x/art/jeffersongoncalves-filament-metrics-fathom.png)
 
 </div>
 
 # Filament Metrics Fathom
 
 [![Latest Version on Packagist](https://img.shields.io/packagist/v/jeffersongoncalves/filament-metrics-fathom.svg?style=flat-square)](https://packagist.org/packages/jeffersongoncalves/filament-metrics-fathom)
-[![GitHub Tests Action Status](https://img.shields.io/github/actions/workflow/status/jeffersongoncalves/filament-metrics-fathom/phpstan.yml?branch=1.x&label=phpstan&style=flat-square)](https://github.com/jeffersongoncalves/filament-metrics-fathom/actions?query=workflow%3Aphpstan+branch%3A1.x)
+[![GitHub Tests Action Status](https://img.shields.io/github/actions/workflow/status/jeffersongoncalves/filament-metrics-fathom/phpstan.yml?branch=2.x&label=phpstan&style=flat-square)](https://github.com/jeffersongoncalves/filament-metrics-fathom/actions?query=workflow%3Aphpstan+branch%3A2.x)
 [![Total Downloads](https://img.shields.io/packagist/dt/jeffersongoncalves/filament-metrics-fathom.svg?style=flat-square)](https://packagist.org/packages/jeffersongoncalves/filament-metrics-fathom)
 
 Filament plugin for **Fathom Analytics** metrics. Provides a settings page and dashboard widgets to visualize your website analytics directly in Filament.
@@ -17,18 +17,18 @@ Filament plugin for **Fathom Analytics** metrics. Provides a settings page and d
 | Plugin | Filament | Laravel | PHP |
 |--------|----------|---------|-----|
 | 1.x | 3.x | 10.x / 11.x | 8.2+ |
-| 2.x (soon) | 4.x | 11.x+ | 8.2+ |
+| **2.x** | **4.x** | **11.x+** | **8.2+** |
 | 3.x (soon) | 5.x | 11.x+ | 8.2+ |
 
 ## Requirements
 
 - [jeffersongoncalves/laravel-metrics-fathom](https://github.com/jeffersongoncalves/laravel-metrics-fathom) `^1.0`
-- [filament/spatie-laravel-settings-plugin](https://filamentphp.com/plugins/filament-spatie-settings) `^3.0`
+- [filament/spatie-laravel-settings-plugin](https://filamentphp.com/plugins/filament-spatie-settings) `^4.0`
 
 ## Installation
 
 ```bash
-composer require jeffersongoncalves/filament-metrics-fathom:"^1.0"
+composer require jeffersongoncalves/filament-metrics-fathom:"^2.0"
 ```
 
 Publish and run the settings migration from the base package:
